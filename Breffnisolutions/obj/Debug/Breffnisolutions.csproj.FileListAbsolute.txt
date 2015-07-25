@@ -1,6 +1,0 @@
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\bin\Breffnisolutions.dll.config
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\bin\Breffnisolutions.dll
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\bin\Breffnisolutions.pdb
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\obj\Debug\Breffnisolutions.csprojResolveAssemblyReference.cache
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\obj\Debug\Breffnisolutions.dll
-C:\Users\isabel\Documents\GitHub\Breffnisolutions\Breffnisolutions\obj\Debug\Breffnisolutions.pdb

@@ -1,0 +1,91 @@
+nav{}
+
+.sf-menu {
+	text-align: left;
+	z-index: 999;
+	position: relative;
+}
+
+.sf-menu ul {
+	position:absolute;
+	top:-999px; 
+	display:none;
+	}
+	
+.sf-menu>li {
+	z-index: 999;
+	float: left;
+	position: relative;
+	background:#FFF;
+	text-transform:uppercase;
+	font-size:18px;
+	float:left;
+	display:inline-block;
+	width:156px;
+}
+.sf-menu>li>a {
+	color:#000;
+	display:block;
+	border: 1px solid #f1f1f1;
+	padding: 35px 0px;
+	box-sizing:border-box;
+	text-align:center;
+	width: 157px;
+}
+.sf-menu>li.sfHover, .sf-menu>li.current, .sf-menu>li:hover {
+	background:#de5b01;
+}
+.sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
+	color:#fff;
+	border:none;
+}
+.sf-menu ul a, .sf-menu ul ul a{
+	margin: 0px 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover>ul{
+	top: 90px;
+	left: 1px;
+	z-index: 999; 
+	background:#de5b01;
+	width:155px;
+	padding: 35px 0;
+}
+.sf-menu li ul li{
+	display:block;
+}
+.sf-menu li ul li a{
+	color:#fff;
+}
+.sf-menu a:hover, .sf-menu>li>ul>li.sfHover>a  {  
+	color:#000;
+}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li.sfHover li.sfHover ul{
+	width: 200px;
+	top: 20px !important;
+	left: 155px !important;
+	background:#e9eae4;
+
+}
+.sf-menu li ul li ul li {
+
+	}
+.sf-menu li ul li ul li a{
+	color:#de5b01;
+	}
+	
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 995px) {
+	
+}
+@media only screen and (max-width: 767px) {
+	.sf-menu{display:none !important; float: none;}
+}

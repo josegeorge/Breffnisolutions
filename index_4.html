@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Contacts</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/subscribe-form.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.2.1.js"></script>
+     <script src="js/device.min.js"></script>
+     <script src="js/TMForm.js"></script>
+               
+     <!--[if (gt IE 9)|!(IE)]><!-->
+         <!--<![endif]-->
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script src="js/html5shiv.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+     </head>
+     <body>
+<!--==============================header=================================-->
+<header class="small_header">
+	<div class="header_border">
+		<div class="container">
+			<div class="row">
+				<div class="grid_7">
+					<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="" /><span>Nursing Agency</span></a></h1>
+				</div>
+				<div class="grid_5">   
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index_1.html">About</a>
+								<ul>
+									<li><a href="#">History</a></li>
+									<li><a href="#">News</a>
+										<ul>
+											<li><a href="#">Latest</a></li>
+											<li><a href="#">Archive</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Testimonials</a></li>
+							   </ul>
+							</li>
+							<li><a href="index_2.html">Services</a></li>
+							<li><a href="index_3.html">Gallery</a></li>
+							<li class="current"><a href="index_4.html">Contacts</a></li>
+						</ul>
+					</nav>
+				 </div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--=======content================================-->
+     <!-- ========== Full Width Map ========== -->
+<div class="container">
+	<div class="row">
+		<div class="grid_12">
+			<h4>Contact Us</h4>
+		</div>
+	</div>
+    <div class="row">
+		<div class="grid_12">
+		    <div class="full-width-map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe></div>
+		</div>
+	</div>
+</div>
+<div class="bg_grey block_indent">
+	<div class="container">
+		<div class="row">
+			<div class="grid_4">
+				<div class="contacts">
+					<h4>Addresses</h4>
+					<h3>8901 Marmora Road,<br /> Glasgow, D04 89GR.</h3>
+					<ul>
+						<li>Freephone:</li>
+						<li>Telephone:</li>
+						<li>FAX:</li>
+						<li>E-mail:</li>
+					</ul>
+					<ul>
+						<li>+1 800 559 6580</li>
+						<li>+1 800 603 6035</li>
+						<li>+1 800 889 9898</li>
+						<li><a href="#">mail@demolink.org</a></li>
+					</ul>
+				</div>
+				<div class="contacts">
+					<h3>9863 - 9867 Mill Road,<br />Cambridge, MG09 99HT.</h3>
+					<ul>
+						<li>Freephone:</li>
+						<li>Telephone:</li>
+						<li>FAX:</li>
+						<li>E-mail:</li>
+					</ul>
+					<ul>
+						<li>+1 800 559 6580</li>
+						<li>+1 800 603 6035</li>
+						<li>+1 800 889 9898</li>
+						<li><a href="#">mail@demolink.org</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid_8">
+				<h4>Get in Touch</h4>
+					<form id="contact-form">
+  <div class="contact-form-loader"></div>
+  <fieldset>
+   <label class="name form-div-1">
+    <input type="text" name="name" placeholder="* Your full name here: " value="" data-constraints="@Required @JustLetters" />
+    <span class="empty-message">*This field is required.</span>
+    <span class="error-message">*This is not a valid name.</span>
+   </label>
+   <label class="email form-div-2">
+    <input type="text" name="email" placeholder="* Enter your e-mail" value="" data-constraints="@Required @Email" />
+    <span class="empty-message">*This field is required.</span>
+    <span class="error-message">*This is not a valid email.</span>
+   </label>
+   <label class="phone form-div-3">
+    <input type="text" name="phone" placeholder="Your telephone here:" value="" data-constraints="@Required @JustNumbers" />
+    <span class="empty-message">*This field is required.</span>
+    <span class="error-message">*This is not a valid phone.</span>
+   </label>
+   <label class="message form-div-4">
+    <textarea name="message" placeholder="* Your comments & questions:" data-constraints='@Length(min=20,max=999999)'>
+     
+    </textarea>
+    <span class="empty-message">*This field is required.</span>
+    <span class="error-message">*The message is too short.</span>
+   </label>
+   <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
+   <div class="btns">
+    <a href="#" data-type="submit" class="btn-default btn btn-1">Submit</a>
+    <p>* required fields</p>
+   </div>
+  </fieldset>
+  <div class="modal fade response-message">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+       &times;
+      </button>
+      <h4 class="modal-title">Modal title</h4>
+     </div>
+     <div class="modal-body">
+      You message has been sent! We will be in touch soon.
+     </div>
+    </div>
+   </div>
+  </div>
+ </form>
+			</div>
+		</div>
+	</div>
+</div>
+<!--=======footer=================================-->
+<div class="copy">
+	<div class="container">
+		<div class="row">
+			<div class="grid_9">
+					<p>Nursing agency &copy; 2014 All rights reserved.</p>
+					<p>Terms of use | <a href="index_5.html">Privacy Policy</a></p>
+			</div>
+			<div class="grid_3 social">
+				<h3>Follow Us:</h3>
+				<ul>
+				<li><a href="#"><img src="images/facebook.png" alt="*"></a></li>
+				<li><a href="#"><img src="images/pint.png" alt="*"></a></li>
+				<li><a href="#"><img src="images/google.png" alt="*"></a></li>
+				<li><a href="#"><img src="images/skype.png" alt="*"></a></li>
+				<li><a href="#"><img src="images/twit.png" alt="*"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
