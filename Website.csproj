@@ -124,10 +124,10 @@
     <Content Include="images\up.png" />
     <Content Include="images\who_we_are.jpg" />
     <Content Include="index.html" />
-    <Content Include="index_1.html" />
-    <Content Include="index_2.html" />
+    <Content Include="AboutUs.html" />
+    <Content Include="Services.html" />
     <Content Include="index_3.html" />
-    <Content Include="contactus.html" />
+    <Content Include="Contactus.html" />
     <Content Include="index_5.html" />
     <Content Include="js\device.min.js" />
     <Content Include="js\forms.js" />
