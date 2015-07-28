@@ -1,0 +1,6 @@
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\bin\Website Code.dll.config
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\bin\Website Code.dll
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\bin\Website Code.pdb
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\obj\Debug\Website.csprojResolveAssemblyReference.cache
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\obj\Debug\Website Code.dll
+C:\Users\isabel\Documents\GitHub\Breffnisolutions\obj\Debug\Website Code.pdb

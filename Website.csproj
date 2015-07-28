@@ -127,7 +127,7 @@
     <Content Include="index_1.html" />
     <Content Include="index_2.html" />
     <Content Include="index_3.html" />
-    <Content Include="index_4.html" />
+    <Content Include="contactus.html" />
     <Content Include="index_5.html" />
     <Content Include="js\device.min.js" />
     <Content Include="js\forms.js" />
