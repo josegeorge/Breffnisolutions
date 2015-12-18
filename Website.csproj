@@ -68,6 +68,9 @@
     <Content Include="bat\libmail.php" />
     <Content Include="bat\MailHandler.php" />
     <Content Include="bat\recaptchalib.php" />
+    <Content Include="ContactusSuccess.html" />
+    <Content Include="Testimonials.html" />
+    <Content Include="IrishNursingJobs.html" />
     <Content Include="css\camera.css" />
     <Content Include="css\form.css" />
     <Content Include="css\grid.css" />
@@ -76,6 +79,8 @@
     <Content Include="css\style.css" />
     <Content Include="css\subscribe-form.css" />
     <Content Include="css\superfish.css" />
+    <Content Include="sendmail.php" />
+    <Content Include="skypeTestPage.html" />
     <Content Include="images\content_img.png" />
     <Content Include="images\d_to_nur.jpg" />
     <Content Include="images\facebook.png" />

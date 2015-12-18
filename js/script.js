@@ -189,3 +189,50 @@ if (!result) {
     userScale = ",user-scalable=0"
 }
 document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0' + userScale + '">');
+
+
+(function ($) {
+    var div = $('.date');
+    if (div) {
+        var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = monthNames[today.getMonth()]; //January is 0!
+
+        var yyyy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+        var currentDate = mm +' '+ dd + ',' + yyyy;
+
+        $(div).html(currentDate);
+    }
+})(jQuery);
+
+
+
+(function($) {
+
+    var wWidth = $(window).width();
+    var dWidth = wWidth * 0.6;
+    var wHeight = $(window).height();
+    var dHeight = wHeight * 0.6;
+
+    $("#freeAd").dialog(
+       
+         {
+            title: "FREE FREE FREE",
+            modal: true,
+            show: 'fast',
+            hide: 'fade',
+            overlay: {
+                     opacity: 0.1, background:
+                            "black"
+             },
+            width: dWidth,
+            height:dHeight,
+            draggable:false,
+            resizable:false
+        });
+   
+})(jQuery);

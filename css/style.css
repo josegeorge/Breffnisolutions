@@ -122,7 +122,7 @@ footer{
 	top: 190px;
 	margin: 0;
 	position:relative;
-	z-index:999;
+	z-index:1;
 }
 .rhomb_diamond:first-child{
 	margin-left:25px;	
@@ -151,7 +151,7 @@ footer{
 	-o-transform:rotate(45deg);
 	transform:rotate(45deg);
 	position:absolute;
-	top:82px;
+	top:65px;
 	left:-14px;
 	margin:0 25px;
 }
@@ -300,6 +300,9 @@ footer{
 }
 
 /************Content***********/
+#divWhatWeOffer {
+    padding-top: 45px;
+}
 .tit{
 	color: #2d3438;
 	margin-top: 105px;
@@ -1124,3 +1127,54 @@ h2 {
 	margin-top:5px;	
 }
 }
+.content_spacer {
+    height: 25px;
+    display: block;
+}
+
+.jobs {
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+    color: #D45F11;
+    border:1px solid #d5d6d7;
+    padding: 5px;
+}
+
+.jobs span {
+     font-style: italic;
+    font-size: small;
+    display: block;
+}
+
+/*#freeAd {
+        background-image: url("images/ui-bg_flat_0_aaaaaa_40x100.png");
+}*/
+
+#freeAd div,#freeAd div.helight {
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+
+}
+#freeAd ul {
+    padding: 10px 20px 10px 20px;
+    font-style: italic;
+    color: #d45f11;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+#freeAd ul  li {
+    margin: 5px;
+
+}
+
+#freeAd div a {
+    font-style: normal;
+    color: red;
+}
+
+    #freeAd div.helight {
+        font-size: larger;
+        text-align: center;
+        color: red;
+    }

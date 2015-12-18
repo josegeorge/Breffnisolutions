@@ -10,3 +10,14 @@ C:\Users\JGeorge\Documents\GitHub\Breffnisolutions\bin\Website Code.pdb
 C:\Users\JGeorge\Documents\GitHub\Breffnisolutions\obj\Debug\Website.csprojResolveAssemblyReference.cache
 C:\Users\JGeorge\Documents\GitHub\Breffnisolutions\obj\Debug\Website Code.dll
 C:\Users\JGeorge\Documents\GitHub\Breffnisolutions\obj\Debug\Website Code.pdb
+J:\Breffnisolutions\Nidhin\Breffnisolutions\bin\Website Code.dll
+J:\Breffnisolutions\Nidhin\Breffnisolutions\bin\Website Code.pdb
+J:\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website.csprojResolveAssemblyReference.cache
+J:\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website Code.dll
+J:\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website Code.pdb
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\bin\Website Code.dll.config
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\bin\Website Code.dll
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\bin\Website Code.pdb
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website.csprojResolveAssemblyReference.cache
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website Code.dll
+D:\MyFiles\Breffnisolutions\Nidhin\Breffnisolutions\obj\Debug\Website Code.pdb
